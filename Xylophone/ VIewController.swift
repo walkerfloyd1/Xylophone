@@ -19,8 +19,15 @@ class ViewController: UIViewController{
 
     @IBAction func notePressed(_ sender: UIButton) {
         
+        print(sender.tag)
         
+        if sender.tag == 1 {
+            print("play middle c")
+        }
         
+        else if sender.tag == 3 {
+            print("played D")
+        }
     }
     
   
